@@ -1,0 +1,13 @@
+.todo {
+  margin: 15px auto;
+  width: 80%;
+  height: 8vh;
+ border: 1px solid white;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ position: relative;
+ color: white;
+ font-size: 20px;
+}
+

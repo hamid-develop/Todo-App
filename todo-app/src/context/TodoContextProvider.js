@@ -30,11 +30,15 @@ const TodoContextProvider = ({ children }) => {
     setTodos(newTodos);
   };
 
-  
-
   return (
     <TodoContext.Provider
-      value={{ todos, addTodoHandler, deleteTodoHandler, completedTodoHandler }}
+      value={{
+        todos,
+        setTodos,
+        addTodoHandler,
+        deleteTodoHandler,
+        completedTodoHandler,
+      }}
     >
       {children}
     </TodoContext.Provider>

@@ -1,0 +1,31 @@
+.addTodo {
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+.addTodo input{  
+    width: 30%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 4px;
+    margin-right: 12px;
+}
+
+.addTodo Button {
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #6c7f92;
+    border: none;
+    outline: none;
+}
+
+.addTodo Button:hover {
+    background-color: #95a0ac;
+
+}

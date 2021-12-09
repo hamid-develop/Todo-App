@@ -1,0 +1,14 @@
+.todoList {
+    text-align: center;
+    margin: 50px auto;
+    width: 45%;
+    height: 50vh;
+    border: 1px solid white;
+    overflow-y: scroll;
+}
+
+.todoList h3 {
+    color: white;
+    margin-top: 15px;
+    font-size: 15px;
+}
