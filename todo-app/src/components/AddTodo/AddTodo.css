@@ -23,6 +23,7 @@
     background-color: #6c7f92;
     border: none;
     outline: none;
+    color: white;
 }
 
 .addTodo Button:hover {
